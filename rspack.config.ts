@@ -13,6 +13,9 @@ export default withZephyr()({
   entry: {
     main: "./src/main.tsx"
   },
+  devServer: {
+    port: 3002
+  },
   resolve: {
     extensions: ["...", ".ts", ".tsx", ".jsx"]
   },
